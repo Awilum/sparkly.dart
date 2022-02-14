@@ -2,11 +2,6 @@ library sparkly;
 
 import 'dart:math';
 
-void main() {
-  print(sparkly(
-      [10, 20, 30, 20, 100, 70, 30, 20, 10, 20, 30, 20, 100, 70, 30, 20, 1]));
-}
-
 String sparkly(List<int> data) {
   List<dynamic> sparkTicks = ['▁', '▂', '▃', '▄', '▅', '▆', '▇', '█'];
   String result = '';
