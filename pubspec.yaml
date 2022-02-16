@@ -1,7 +1,7 @@
-name: sparkly
+name: terminal_sparkline
 description: Generate sparklines for your shell.
 version: 1.0.0
-homepage: https://github.com/Awilum/sparkly.dart
+homepage: https://github.com/dart-packages/terminal-sparkline
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
