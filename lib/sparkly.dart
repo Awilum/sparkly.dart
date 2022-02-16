@@ -1,8 +1,8 @@
-library sparkly;
+library terminal_sparkline;
 
 import 'dart:math';
 
-String sparkly(List<int> data) {
+String terminalSparkline(List<int> data) {
   List<dynamic> sparkTicks = ['▁', '▂', '▃', '▄', '▅', '▆', '▇', '█'];
   String result = '';
   int minValue = data.reduce(min);
